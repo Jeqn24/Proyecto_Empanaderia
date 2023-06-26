@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La empanaderia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <!--INICIO-->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>La empanaderia</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Empanadas">
+                                <i class="fa-solid fa-burger"></i>
+                                <span>Empanadas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Comidas">
+                                <i class="fa-solid fa-hotdog"></i>
+                                <span>Comidas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Sobre Nosotros">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Sobre nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Contactanos">
+                                <i class="fa-solid fa-mobile-retro"></i>
+                                <span>Contactanos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:+314-523-99-99">
+                        <i class="fa-solid fa-phone"></i>+314-523-99-99
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a> 
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell" >
+                    <img src="img/img4.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/img2.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/3.webp" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h2>Empanadas cuadradas a su gusto</h2>
+                    <p>Hechas con cuidado y variedad de ingredientes para que el paladar disfrute</p>
+                <button>Leer Más</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION SABORES -->
+    <section id="sabores">
+        <h2>Sabores</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor1.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Empanadas</h3>
+                    <p>Diferentes sabores de empanadas al gusto</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor2.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Arepas</h3>
+                    <p>Acompañadas de jamon, queso o chorizo</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor3.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Chorizo</h3>
+                    <p>Choriarepa o choriperro sencillos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor4.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Choriperro</h3>
+                    <p>Acompañados con pan para hot dogs o su respectiva arepa</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor5.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Gaseosas</h3>
+                    <p>Refrescante para saciar la sed.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor6.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Jugos</h3>
+                    <p>Naturales o sinteticos a su elección</p>
+                </div>
+            </div>
+        </div>
+
+        <button>Ver Más...</button>
+
+    </section>
+
+    <!-- SECCION PLATOS -->
+    <section id="platos">
+        <h2>Platos</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="img/plato1.jpg" alt="">
+                <p>Empanadas cuadradas de 9 sabores diferentes</p>
+            </div>
+            <div class="item">
+                <img src="img/plato2.jpg" alt="">
+                <p>Choriarepa con o sin jamon y queso</p>
+            </div>
+            <div class="item">
+                <img src="img/plato3.jpg" alt="">
+                <p>Choriperro con o sin jamon y queso</p>
+            </div>
+        </div>
+        <button>Ver Más</button>
+    </section>
+    <!--B-->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="galeria-blog js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": true}'>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/Cocinero1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>El gusto que nos da cocinar</h3>
+                        <p>Disfruto hacer comida para la gente de mi ciudad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/cocinero2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Satisfaccion de hacer lo que me gusta</h3>
+                        <p>Hay aspirar a cosas grandes y expandirnos y eso es lo que vamos a hacer, espérennos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/cocinero3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>El trabajo duro de la cocina</h3>
+                        <p>La cocina es para valientes que disfrutan de lo que hacen, hacer comida es hacer arte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>Leer Más</button>
+    </section>
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>La empanaderia</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#sabores">Empanadas</a>
+                <a href="#sabores">Chori/arepa/perros</a>
+                <a href="#sabores">Sobre nosotros</a>
+            </div>
+            <div class="col">
+                <h3>Cheffs</h3>
+                <a href="#">Marco Alberto.</a>
+                <a href="#">Jean Solano.</a>
+                <a href="#">Cristian Rolando.</a>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-whatsapp"></i></i> <a href="#">Whats app</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contactanos</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
